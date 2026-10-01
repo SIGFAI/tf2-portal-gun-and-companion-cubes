@@ -1,0 +1,1 @@
+Copy the mod folder and the kit's game folder into Team Fortress 2's tf/custom folder, then start a bot match on koth_viaduct. Press 3 for the Portal Gun: click shoots a blue portal, right click an orange one, R grabs or drops a cube, and click while carrying throws it.
