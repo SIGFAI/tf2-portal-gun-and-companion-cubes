@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "Portal Gun and Companion Cubes",
   "tagline": "Give TF2 the real Portal gun: blue and orange portals on any wall, momentum kept through them like in Portal 2. Plus Companion Cubes you can pick up, carry and throw, just like the original.",
+  "how_to_play": [
+    "Bots fight with the Portal Gun: blue and orange portals on walls, and anything that enters one flies out the other at full speed.",
+    "Companion Cubes keep appearing near the fighters, and bots grab them and throw them at enemies.",
+    "Open the console and type: map koth_viaduct; bots join and fight on their own.",
+    "You watch the match as a spectator while the camera follows the action."
+  ],
   "kind": "mashup",
   "games": [
     {
