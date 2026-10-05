@@ -1,0 +1,194 @@
+{
+  "id": "sigf/tf2-portal-gun-and-companion-cubes",
+  "version": "1.0.0",
+  "name": "Portal Gun and Companion Cubes",
+  "tagline": "Give TF2 the real Portal gun: blue and orange portals on any wall, momentum kept through them like in Portal 2. Plus Companion Cubes you can pick up, carry and throw, just like the original.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "tf2",
+      "role": "host",
+      "engine": "Team Fortress 2 (Source, 64 bits) + VScript (Squirrel)",
+      "apps": {
+        "steam": "440"
+      }
+    },
+    {
+      "game": "portal2",
+      "role": "guest",
+      "label": "Portal 2"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "tf2",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "tf2-portal-gun-and-companion-cubes.zip",
+          "dst": "{game}/tf/custom/sigf_portal_gun_and_companion_cubes",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "materials/sigf/cube_face.vmt",
+              "sha256": "5ee03c61eff547516cf4fc1864621efc7cb6555ee240d96f7df7574df7eb525a"
+            },
+            {
+              "path": "materials/sigf/cube_face.vtf",
+              "sha256": "fe48f7508d77a7b5f3d497def721a0bc98e4354b9118c758494a11312af34f57"
+            },
+            {
+              "path": "materials/sigf/orb_blue.vmt",
+              "sha256": "ea87e34196d1593fa443c9bb2f4b56bbbfb07e353a1d9dcda5b7ced342b005a9"
+            },
+            {
+              "path": "materials/sigf/orb_blue.vtf",
+              "sha256": "039d6fb3d1f07368a891a1bb2a94cda201ebe85ad36d78979d01caf7d7ee0e85"
+            },
+            {
+              "path": "materials/sigf/orb_orange.vmt",
+              "sha256": "d5b5c36906a3a7e594ed9281234c3ccc02572d84e9d444481d27598ab3c125ac"
+            },
+            {
+              "path": "materials/sigf/orb_orange.vtf",
+              "sha256": "e9c042dc7048a65c7bdf27cd552634c05c0193915247da7ffd21731a8be6236f"
+            },
+            {
+              "path": "materials/sigf/portal_blue.vmt",
+              "sha256": "05fb1b12c577e1da8c6f3dde6564e70b11faf0e721b169f5d8d275f559e4bc7a"
+            },
+            {
+              "path": "materials/sigf/portal_blue.vtf",
+              "sha256": "c5c3775d8af19aab3a10fa6bbd03dd203aac5e543c32b6177d2211a94fed9b96"
+            },
+            {
+              "path": "materials/sigf/portal_gun.vmt",
+              "sha256": "e889f4fe2da541ae9e15ab0b567eba7ada6efb3b3076efd3a7ad9e3fac4f38c7"
+            },
+            {
+              "path": "materials/sigf/portal_gun.vtf",
+              "sha256": "c8556f63f23e4592f85436b21fc9afa8b9fd9118ac3c77a1fdeb1e0f58b85afe"
+            },
+            {
+              "path": "materials/sigf/portal_orange.vmt",
+              "sha256": "912284f1e40f87c2589d6af84fbaf4e2cc74e7d3ec2c9ec8a7bfde13f841253f"
+            },
+            {
+              "path": "materials/sigf/portal_orange.vtf",
+              "sha256": "c6b5da0807d65956b79e8f5c5e125efa57976292280887895b9c0c046ff15e3f"
+            },
+            {
+              "path": "scripts/vscripts/sigf_demo.nut",
+              "sha256": "916f300716d8d1afab5db492f785ffbe6ddfcc28fbd4511a4d1fa0f199e56a92"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mod.nut",
+              "sha256": "cf07065f5b4e6b5961adead68e7225d52e20ea19bf78b641c87e6373add2ba3c"
+            },
+            {
+              "path": "sound/sigf/cube_grab.wav",
+              "sha256": "1eea57d2f1a07a3a283e1ef83bd67baa23c394aca11f24d7da5668ab4243811a"
+            },
+            {
+              "path": "sound/sigf/cube_hit.wav",
+              "sha256": "bf900d1fd16263748c33351c9c2a88da1c2b4c548b281c8b60a60449a3cbca34"
+            },
+            {
+              "path": "sound/sigf/pg_blue.wav",
+              "sha256": "cecb9d7a8b97d97f85089c28e2cb0f01fbadc06799f17ce9c56b996b8f1a5356"
+            },
+            {
+              "path": "sound/sigf/pg_fizzle.wav",
+              "sha256": "5234b529316ca9aacc2e8cc714fbe95c271f98f36d927256bcc1089de256263c"
+            },
+            {
+              "path": "sound/sigf/pg_orange.wav",
+              "sha256": "86a9d421f0fde3295abcb7faecfddf5b218324a784788219e4a6ffc84f37ba4d"
+            },
+            {
+              "path": "sound/sigf/portal_open.wav",
+              "sha256": "c2550ffe889ebc116087e2340b14a41e9c6d76c791880b6257ff61c4b693f5f1"
+            },
+            {
+              "path": "sound/sigf/portal_pass.wav",
+              "sha256": "ca0e450baa9c75dfd062d2e053f147915c8f6f2292405d8c36cd5e8d29a272a5"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/tf2-portal-gun-and-companion-cubes/releases/download/v1.0.0/tf2-portal-gun-and-companion-cubes.zip",
+          "sha256": "891e6cfba603e670f90cb25ff61664f1c784c0277df1bcf21f252be0e555cced",
+          "size": 1393968
+        },
+        {
+          "src": "tf2-portal-gun-and-companion-cubes-game-kit.zip",
+          "dst": "{game}/tf/custom/sigf_kit",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "cfg/sigf_server.cfg",
+              "sha256": "ac6e43c9f1240fc9fa574be5aeeec813c7eb888ad1ac0c9e31d047e2df2c35ea"
+            },
+            {
+              "path": "scripts/vscripts/mapspawn.nut",
+              "sha256": "e7f32c2c316ec8f918c981e3611386d0b554a03135ba5b7daf6c3bd5109e6d05"
+            },
+            {
+              "path": "scripts/vscripts/sigf_bricks.nut",
+              "sha256": "c2eb380bb45207e2d854c0e7e92eba7db013b11f332debf8accfafa331362344"
+            },
+            {
+              "path": "scripts/vscripts/sigf_lib.nut",
+              "sha256": "714a90211d747e98594f0f7b69ec8ad90a1bd8e1d81388570dbc7896b38b8eba"
+            },
+            {
+              "path": "scripts/vscripts/sigf_pilot.nut",
+              "sha256": "8471e7c409a9dafb604dd9e091c05f954acaa4f77fac04a137b5e3a2365e095d"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/tf2-portal-gun-and-companion-cubes/releases/download/v1.0.0/tf2-portal-gun-and-companion-cubes-game-kit.zip",
+          "sha256": "00975887ba6cb74161054d6c48128bf5681a3e36c794eecab8906429de1a7685",
+          "size": 9533
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "tf2",
+      "args": [
+        "-game",
+        "tf",
+        "-insecure"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "tf2-portal-gun-and-companion-cubes.zip",
+      "url": "https://github.com/SIGFAI/tf2-portal-gun-and-companion-cubes/releases/download/v1.0.0/tf2-portal-gun-and-companion-cubes.zip",
+      "sha256": "891e6cfba603e670f90cb25ff61664f1c784c0277df1bcf21f252be0e555cced",
+      "size": 1393968
+    },
+    {
+      "name": "tf2-portal-gun-and-companion-cubes-game-kit.zip",
+      "url": "https://github.com/SIGFAI/tf2-portal-gun-and-companion-cubes/releases/download/v1.0.0/tf2-portal-gun-and-companion-cubes-game-kit.zip",
+      "sha256": "00975887ba6cb74161054d6c48128bf5681a3e36c794eecab8906429de1a7685",
+      "size": 9533
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/tf2-portal-gun-and-companion-cubes",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "tf2",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:28:59.911Z"
+}
